@@ -1,6 +1,20 @@
 # Excallback
 
-**TODO: Add description**
+Proxy recording failed requests
+
+Working schema:
+
+  * Take requests.
+  * Do them to the target.
+  * Return the targets response to the caller. [TODO]
+  * If target fails: save the failed request and response.
+  * Present failed requests in an UI or CLI. [TODO]
+  * Do the requests using the CircuitBreaker design pattern. [TODO]
+
+## Origin
+
+This was started on ElixirBridge no.2 at [Elixir Tricity](https://www.meetup.com/Elixir-Tricity/).
+The main purpose is to learn together and teach Elixir to others. 
 
 ## Installation
 
